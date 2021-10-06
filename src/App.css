@@ -1,38 +1,256 @@
-.App {
+:root {
+  --mainBlue: #173f5f;
+  --regBlue: #20639b;
+  --regGreen: #3caea3;
+  --regYellow: #f6d55c;
+  --regRed: #ed553b;
+}
+
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+}
+
+/*  */
+/* Navigation Bar */
+/*  */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background: var(--mainBlue);
+}
+nav a {
+  color: white;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+}
+
+/*  */
+/* Header Banner, includes image and text */
+/*  */
+header {
+  background: var(--mainBlue);
+  color: white;
+  display: inline-flex;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+.headerContent {
+  /* : top right bottom left */
+  margin: 150px 4% 30px 2%;
+  flex: 0 0 60%;
+  text-align: end;
+}
+.headerContent h1 {
+  text-align: end;
+  margin: 0 auto;
+  font-size: 50px;
+}
+#headerImage {
+  display: flex;
+  float: right;
+  margin: 20px auto 50px;
+  height: 500px;
+  width: 50%;
+}
+
+/*  */
+/* My Applications Section */
+/*  */
+#myApplications {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto 25px;
+  flex: 1 0 0;
+  padding: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  display: inline-flex;
+  margin-left: 50px;
+  border-bottom: 4px solid var(--mainBlue);
+  width: 90%;
+
+  font-size: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* The Cards or sections that have my 3 different application examples */
+main article {
+  border: 3px solid var(--mainBlue);
+  margin: 20px;
+  transition: all 0.2s ease-in-out;
+
+  width: 100%;
+  min-width: 400px;
+}
+main article:hover {
+  transform: scale(1.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main h3 {
+  padding: 20px;
+  background: var(--regBlue);
+  color: white;
+  margin: 0 auto;
+  font-size: 22px;
+}
+
+/* This is the text and the button on the Application Cards */
+main .cardContent {
+  display: inline-flex;
+  flex-direction: column;
+  width: 600px;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+a.button {
+  appearance: button;
+  background-color: var(--regGreen);
+  width: 200px;
+  padding: 2%;
+  border-radius: 10px;
+
+  text-decoration: none;
+  color: #ffffff;
+}
+a.button:hover {
+  box-shadow: 0 0 2px 4px var(--regYellow);
+}
+
+/* Here is the Images that show up on all the Applications */
+.pageImage {
+  border: 2px solid var(--regGreen);
+  display: inline-block;
+  float: right;
+  padding: 5px;
+  margin: 5px auto;
+}
+.pageImage:hover {
+  box-shadow: 0 0 2px 4px var(--regYellow);
+}
+
+/*  */
+/* About Me Section */
+/*  */
+.aboutMe {
+  display: flex;
+  width: 90%;
+  margin: 0 auto 25px;
+  flex: 1 0 0;
+  text-align: center;
+  padding: 10px;
+}
+.aboutMeContent {
+  margin: 0 4% 30px 2%;
+  text-align: start;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 18px;
+}
+.gradPhoto {
+  display: flex;
+  float: left;
+  margin: 0 30px;
+  height: 400px;
+  width: 30%;
+  padding-left: 40px;
+}
+
+/*  */
+/* Contact Info Section */
+/*  */
+.contactBackground {
+  width: 100%;
+  background: var(--mainBlue);
+  padding-top: 30px;
+}
+
+#contactInfo {
+  display: flexbox;
+  flex-wrap: wrap;
+  width: 70%;
+  padding: 10px;
+  margin: 0 auto 40px;
+
+  flex: 1 0 0;
   color: white;
+  text-align: left;
+  margin-left: 150px;
+}
+.contactBackground h3 {
+  text-align: right;
+  font-size: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.contactBackground h4 {
+  text-align: left;
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.contactDetail {
+  display: block;
+  width: 275px;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 25px;
+  background: #f6d55c;
+  color: var(--mainBlue);
+  text-align: center;
+  font-weight: 800;
+}
+.contactDetail:hover {
+  box-shadow: 0 0 2px 4px var(--regGreen);
+}
+
+/*  */
+/* Footer Element */
+/*  */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: var(--regBlue);
+  color: white;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+  nav a {
+    text-align: left;
+    font-size: 25px;
+    margin-left: 10px;
+    padding-bottom: 0;
+  }
+
+  .headerContent {
+    margin-left: 0;
+  }
+
+  .aboutMe {
+    flex-wrap: wrap;
+  }
+
+  .cardContent {
+    flex-wrap: wrap;
   }
 }
