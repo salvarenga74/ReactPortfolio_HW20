@@ -10,10 +10,10 @@ In this assignment I was expected to create a personal portfolio that could be u
 
 The User expected to be able to load my portfolio and be able to see my name, a recent photo, and links to sections about me and my work. They would have expected all links to have worked and for all the webpage to be responsive to different screen viewing options. The user would have also expected advanced CSS elements to be present in the webpage and the code.
 
-See Deployed Application: [Portfolio - October 2021](https://salvarenga74.github.io/Portfolio_2021/)
+See Deployed Application: [Portfolio - October 2021](https://salvarenga74.github.io/ReactPortfolio_HW20/)
 
-<img src="./assets/images/portfolioScreengrab1.png" alt="Screen grab of the top of my profile"/>
-<img src="./assets/images/portfolioScreengrab2.png" alt="Screen grab of the top of my profile"/>
+<img src="./src/images/portfolioScreengrab1.png" alt="Screen grab of the top of my profile"/>
+<img src="./src/images/portfolioScreengrab2.png" alt="Screen grab of the top of my profile"/>
 
 <summary>Table of Contents</summary>
   <ol>
@@ -34,11 +34,11 @@ To get started:
 
 ## Usage
 
-I met the accepted criteria of this assignment and have gone beyond (in my opinion) to create a beautiful portfolio page that is a reflection of my potential as a developer and my work ethic. It contains 2 current photos of myself, has a section that describes the other applications I have deployed, contains a section with some background about myself, and gives my contact information.
+I met the accepted criteria of this assignment and have gone beyond (in my opinion) to create a beautiful portfolio page that is a reflection of my potential as a developer and my work ethic. It contains 2 current photos of myself, has a section that describes the other applications I have deployed, contains a section with some background about myself, and gives my contact information. My portfolio is also a React website that is mobile friendly.
 
-My Portfolio has a functioning Navigation Bar that jump down to the desired section within the webpage. Links to a downloadable PDF of my resume. And contains links to my updated Github and LinkedIn accounts.
+My Portfolio has a functioning Navigation Bar that jump down to the desired section within the webpage. Links to a downloadable PDF of my resume. And contains links to my updated Github and LinkedIn accounts in the footer of all pages. I have also included a formatted form where recruiters could potentially contact me. However at this time there is not storage feature for messages received and so I also included my contact information for those interested in contacting me.
 
-It also shows the advanced CSS that was expected such as growing sections when the user hovers over them, links on images that deploy to live websites, and a responsive layout that changed based on the screen view.
+It also shows the advanced CSS that was expected such as links on images that deploy to live websites, and a responsive layout that changed based on the screen view.
 
 ## License
 
