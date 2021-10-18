@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portfolio_2021/static/css/main.7f41db52.chunk.css",
+    "main.js": "/Portfolio_2021/static/js/main.8238e619.chunk.js",
+    "main.js.map": "/Portfolio_2021/static/js/main.8238e619.chunk.js.map",
+    "runtime-main.js": "/Portfolio_2021/static/js/runtime-main.d25c1940.js",
+    "runtime-main.js.map": "/Portfolio_2021/static/js/runtime-main.d25c1940.js.map",
+    "static/css/2.c1256375.chunk.css": "/Portfolio_2021/static/css/2.c1256375.chunk.css",
+    "static/js/2.4ffb1e6e.chunk.js": "/Portfolio_2021/static/js/2.4ffb1e6e.chunk.js",
+    "static/js/2.4ffb1e6e.chunk.js.map": "/Portfolio_2021/static/js/2.4ffb1e6e.chunk.js.map",
+    "static/js/3.6d661594.chunk.js": "/Portfolio_2021/static/js/3.6d661594.chunk.js",
+    "static/js/3.6d661594.chunk.js.map": "/Portfolio_2021/static/js/3.6d661594.chunk.js.map",
+    "index.html": "/Portfolio_2021/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/Portfolio_2021/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.7f41db52.chunk.css.map": "/Portfolio_2021/static/css/main.7f41db52.chunk.css.map",
+    "static/js/2.4ffb1e6e.chunk.js.LICENSE.txt": "/Portfolio_2021/static/js/2.4ffb1e6e.chunk.js.LICENSE.txt",
+    "static/media/IMG_0463.30e94d3a.JPG": "/Portfolio_2021/static/media/IMG_0463.30e94d3a.JPG",
+    "static/media/IMG_0465.260bb5b6.JPG": "/Portfolio_2021/static/media/IMG_0465.260bb5b6.JPG",
+    "static/media/Sally_Alvarenga_Resume2021 (1).82328fda.jpg": "/Portfolio_2021/static/media/Sally_Alvarenga_Resume2021 (1).82328fda.jpg",
+    "static/media/Sally_Alvarenga_Resume2021 (2).eeb6ad0a.jpg": "/Portfolio_2021/static/media/Sally_Alvarenga_Resume2021 (2).eeb6ad0a.jpg",
+    "static/media/Sally_Alvarenga_Resume2021.c1c18eec.pdf": "/Portfolio_2021/static/media/Sally_Alvarenga_Resume2021.c1c18eec.pdf",
+    "static/media/grayPharmacy.fca5ef1b.png": "/Portfolio_2021/static/media/grayPharmacy.fca5ef1b.png",
+    "static/media/kTVCollab.3c883e00.png": "/Portfolio_2021/static/media/kTVCollab.3c883e00.png",
+    "static/media/offlineBudgetTracker.f01cdbd0.png": "/Portfolio_2021/static/media/offlineBudgetTracker.f01cdbd0.png",
+    "static/media/statsPage.c49a42e4.png": "/Portfolio_2021/static/media/statsPage.c49a42e4.png",
+    "static/media/topTransition.539aff52.png": "/Portfolio_2021/static/media/topTransition.539aff52.png",
+    "static/media/videoThumbnail.28b35229.png": "/Portfolio_2021/static/media/videoThumbnail.28b35229.png",
+    "static/media/weatherWebsite.9f28ffa3.png": "/Portfolio_2021/static/media/weatherWebsite.9f28ffa3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d25c1940.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.4ffb1e6e.chunk.js",
+    "static/css/main.7f41db52.chunk.css",
+    "static/js/main.8238e619.chunk.js"
+  ]
+}
