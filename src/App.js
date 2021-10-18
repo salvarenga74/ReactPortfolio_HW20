@@ -1,4 +1,3 @@
-// import logo from "./logo.svg";
 import "./App.css";
 import PortfolioContainer from "./containers/PortfolioContainer";
 import "bootstrap/dist/css/bootstrap.min.css";

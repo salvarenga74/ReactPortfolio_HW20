@@ -10,10 +10,13 @@ import pharmacyImage from "../images/grayPharmacy.png";
 export default function Repos() {
   return (
     //  <!-- PORTFOLIO CARD SECTION -->
-    <section className=" container">
+    <section className=" container" style={{ marginTop: "50px" }}>
       {/* <!-- Row 1 --> */}
       <h3 id="selfCreatedApplications">Self Created Applications</h3>
-      <article className="justify-content-center" style={{ display: "flex" }}>
+      <article
+        className=" repoProjectCard justify-content-center"
+        style={{ display: "flex" }}
+      >
         <div className="card project-card">
           <h4 className="card-header">Weather Dashboard</h4>
           <div className="card-body">
@@ -74,7 +77,10 @@ export default function Repos() {
 
       {/* <!-- Row 2 --> */}
       <h3 id="refactoringAssignments">Refactoring Assignments</h3>
-      <article className=" justify-content-center" style={{ display: "flex" }}>
+      <article
+        className="  repoProjectCard justify-content-center"
+        style={{ display: "flex" }}
+      >
         <div className="card project-card">
           <h4 className="card-header">Workout Tracker</h4>
           <div className="card-body">
@@ -142,7 +148,10 @@ export default function Repos() {
 
       {/* <!-- Row 3 --> */}
       <h3 id="collaborativeProjects">Collaborative Projects</h3>
-      <article className=" justify-content-center" style={{ display: "flex" }}>
+      <article
+        className="repoProjectCard justify-content-center"
+        style={{ display: "flex" }}
+      >
         <div className="card project-card">
           <h4 className="card-header">kTV Online</h4>
           <div className="card-body">
@@ -205,7 +214,7 @@ export default function Repos() {
           </div>
         </div>
       </article>
-      <article className="text-center">
+      <article className="text-center" style={{ margin: "50px 0px" }}>
         <a
           href="https://github.com/salvarenga74?tab=repositories"
           className="btn btn-lg btn-primary"

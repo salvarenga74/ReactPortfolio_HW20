@@ -1,39 +1,36 @@
 import React from "react";
-import aboutMeImg from "../images/IMG_0463.JPG";
 import resumePDF from "../images/Sally_Alvarenga_Resume2021.pdf";
+import resumePage1 from "../images/Sally_Alvarenga_Resume2021 (1).jpg";
+import resumePage2 from "../images/Sally_Alvarenga_Resume2021 (2).jpg";
 
 export default function About() {
   return (
     <section className="container" id="aboutMe">
       <h2>October 2021 Resume</h2>
-      <article className="col aboutMe" style={{ display: "flex" }}>
-        <div className=" aboutMePhoto" style={{ flexBasis: "50%" }}>
-          <img
-            className="img-fluid"
-            src={aboutMeImg}
-            alt="Sally in her Graduation Outfit"
-          />
-        </div>
-        <section className="  aboutMeContent">
-          <p>
-            I received my Bachelor's of Science degree in Biomedical Engineering
-            from the University of Texas at Arlington in 2020. I then obtained
-            my certification for Full Stack Web Development from the SMU Coding
-            Boot Camp powered by Trilogy Education Services.
-          </p>
 
-          <article className="text-center" id="resume">
-            <a
-              href={resumePDF}
-              download
-              classNameName="btn btn-lg btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Download Sally's Resume
-            </a>
-          </article>
-        </section>
+      <article className="col resumeSection" style={{ display: "flex" }}>
+        <div className="resumePage" style={{ border: "solid" }}>
+          <img src={resumePage1} alt="page1  of resume" />
+        </div>
+        <div className="resumePage" style={{ border: "solid" }}>
+          <img src={resumePage2} alt="page2 of resume" />
+        </div>
+      </article>
+
+      <article
+        className="text-center"
+        id="resume"
+        style={{ margin: "60px 0px" }}
+      >
+        <a
+          href={resumePDF}
+          download
+          className="btn btn-lg btn-primary"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Download Sally's Resume
+        </a>
       </article>
     </section>
   );

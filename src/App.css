@@ -86,13 +86,22 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+  .repoProjectCard {
+    flex-direction: column;
+  }
   .row {
     flex-direction: column;
+  }
+  .resumeSection {
+    flex-direction: column;
+  }
+  .resumePage {
+    display: contents;
   }
 }
 
 @media screen and (max-width: 768px) {
   header {
-    flex-direction: column;
+    flex-direction: column !important;
   }
 }

@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# **Portfolio - October 2021** [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>By Sally Alvarenga</h2>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+In this assignment I was expected to create a personal portfolio that could be used to give to a potential employer as a way to showcase the skill I had learn within the first week and a half of coding bootcamp.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The User expected to be able to load my portfolio and be able to see my name, a recent photo, and links to sections about me and my work. They would have expected all links to have worked and for all the webpage to be responsive to different screen viewing options. The user would have also expected advanced CSS elements to be present in the webpage and the code.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+See Deployed Application: [Portfolio - October 2021](https://salvarenga74.github.io/Portfolio_2021/)
 
-### `npm test`
+<img src="./assets/images/portfolioScreengrab1.png" alt="Screen grab of the top of my profile"/>
+<img src="./assets/images/portfolioScreengrab2.png" alt="Screen grab of the top of my profile"/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#Installation">Installation</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#tests">Tests</a></li>
+    <li><a href="#questions">Questions</a></li>
+  </ol>
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get started:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- no installation is required to use this browser based application.
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+I met the accepted criteria of this assignment and have gone beyond (in my opinion) to create a beautiful portfolio page that is a reflection of my potential as a developer and my work ethic. It contains 2 current photos of myself, has a section that describes the other applications I have deployed, contains a section with some background about myself, and gives my contact information.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+My Portfolio has a functioning Navigation Bar that jump down to the desired section within the webpage. Links to a downloadable PDF of my resume. And contains links to my updated Github and LinkedIn accounts.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+It also shows the advanced CSS that was expected such as growing sections when the user hovers over them, links on images that deploy to live websites, and a responsive layout that changed based on the screen view.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License
 
-## Learn More
+Distributed under the MIT License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Copyright (c) 2021 Sally Alvarenga
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tests
 
-### Code Splitting
+Testing and Debugging has already been done by the developer and but feedback will be appreciated for further development.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Questions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+For further questions and inquiries please feel free send me an email or a direct message on GitHub
 
-### Making a Progressive Web App
+Sally Alvarenga - sallyalvarenga35@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub Profile: [https://github.com/salvarenga74/](https://github.com/salvarenga74)

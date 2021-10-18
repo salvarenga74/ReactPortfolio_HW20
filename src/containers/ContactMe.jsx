@@ -5,11 +5,11 @@ export default function Contact() {
   return (
     <section
       className="contactBackground"
-      style={{ display: "inline-block", width: "100vw" }}
+      style={{ display: "inline-block", width: "100%" }}
     >
       <section
         id="contactInfo"
-        style={{ textAlign: "center", marginBottom: "20px" }}
+        style={{ textAlign: "center", margin: "120px 0px" }}
       >
         <h4>Thank you for getting to know me.</h4>
         <h1>I'd Love to Talk to You Too!</h1>
@@ -24,24 +24,29 @@ export default function Contact() {
           sallyalvarenga35@gmail.com
         </a>
       </section>
-      <h4>Or send me a message right now!</h4>
+      <h4 style={{ textAlign: "center" }}>Or send me a message right now!</h4>
       <Form
         style={{
           display: "flex",
           flexDirection: "column",
           flexBasis: "50%",
           alignItems: "center",
+          marginBottom: "50px",
         }}
       >
         <Form.Group
           className="mb-3"
           controlId="exampleForm.ControlInput1"
-          style={{ width: "70%" }}
+          style={{ width: "60%" }}
         >
           <Form.Label>Email address</Form.Label>
           <Form.Control type="email" placeholder="name@example.com" />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Group
+          className="mb-3"
+          controlId="exampleForm.ControlTextarea1"
+          style={{ width: "60%" }}
+        >
           <Form.Label>Your message to me.</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
